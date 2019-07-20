@@ -1,0 +1,1 @@
+ build/default/production/putsxlcd.d  build/default/production/putsxlcd.p1:  putsxlcd.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

@@ -1,0 +1,1 @@
+ build/default/production/LCD_user_functions.d  build/default/production/LCD_user_functions.p1:  LCD_user_functions.c psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/delays.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

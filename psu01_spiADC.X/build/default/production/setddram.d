@@ -1,0 +1,1 @@
+ build/default/production/setddram.d  build/default/production/setddram.p1:  setddram.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

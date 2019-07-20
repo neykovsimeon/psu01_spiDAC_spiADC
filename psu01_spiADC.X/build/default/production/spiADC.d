@@ -1,0 +1,1 @@
+ build/default/production/spiADC.d  build/default/production/spiADC.p1:  spiADC.c spiADC.h ../../pic18_plib/include/plib/spi.h SPI_user_functions.h psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/pconfig.h ../../pic18_plib/include/plib/p18cxxx.h psu_Rev01_hardware.h

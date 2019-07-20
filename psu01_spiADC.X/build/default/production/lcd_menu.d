@@ -1,0 +1,1 @@
+ build/default/production/lcd_menu.d  build/default/production/lcd_menu.p1:  lcd_menu.c psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h lcd_menu.h ../../pic18_plib/include/plib/delays.h display_functions.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h LCD_user_functions.h psu_Rev01_hardware.h

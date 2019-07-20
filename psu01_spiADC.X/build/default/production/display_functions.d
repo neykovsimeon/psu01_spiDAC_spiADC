@@ -1,0 +1,1 @@
+ build/default/production/display_functions.d  build/default/production/display_functions.p1:  display_functions.c SPI_user_functions.h psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h lcd_menu.h ../../pic18_plib/include/plib/delays.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h LCD_user_functions.h
