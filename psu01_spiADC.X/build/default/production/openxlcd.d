@@ -1,1 +1,0 @@
- build/default/production/openxlcd.d  build/default/production/openxlcd.p1:  openxlcd.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h
