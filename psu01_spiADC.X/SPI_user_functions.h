@@ -2,6 +2,7 @@
 #define __SPI_USER_FUNCTIONS
  
 
+void init_relDriver_SPI (void);
 void init_dig_pot_SPI (void);
 void send_contrast_spi (void);
 void send_backlight_spi (void);

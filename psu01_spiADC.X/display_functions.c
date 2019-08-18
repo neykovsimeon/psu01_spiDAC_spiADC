@@ -215,6 +215,24 @@ void protection_display (void) {
       putrsXLCD("!CHECK SETTINGS!");      
 }
 
+void warning_display_ONOFF (void) {
+    // display contrast settings
+      clear_display();
+      SetDDRamAddr (0x00);
+      putrsXLCD("Connect 4 wire");
+      SetDDRamAddr (0x40);
+      putrsXLCD("and press OK");      
+}
+
+void warning_display_4wires (void) {
+    // display contrast settings
+      clear_display();
+      SetDDRamAddr (0x00);
+      putrsXLCD("Change 2/4 wire");
+      SetDDRamAddr (0x40);
+      putrsXLCD("only at out OFF");      
+}
+
 void show_on_screen (unsigned char screen_mode) {
     switch (screen_mode){
         case DISPLAY_DEFAULT:

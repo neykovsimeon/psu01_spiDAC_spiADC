@@ -29,7 +29,7 @@
  
 2. Use of Microchip's 12bit spi DAC MCP4921 as a set output voltage command interface for the unit
 
-3. Use of Microchip's 12bit spi ADC MCP3208 as for output (m)Voltmener and  (m)Ampermeter)
+3. Use of Microchip's 12bit spi ADC MCP3208 as for output Voltmener and  Ampermeter
 
 4. Dedicated and re-usable menu structure, easy to handle:
  - menu item selector
@@ -48,3 +48,13 @@
  - Actual max current would depends of the output power transistors used, heat-sink applied, and the capability of the input voltage source.
    - In my trials I used an laptop power adapter, 20V, 3A.  
    
+9. Added  spi serial to parallel I/O expander MCP23S08 together with I/O buffer UDN2595 for higher sink current capability
+ - used as an output expander in this project
+ - used to control relays and LEDs respectively
+ - relays used in a perspective to introduce:
+   - PSU output ON/OFF (connect / disconnect) functionality
+   - PSU output configured in 2 wire or 4 wite (force / sense concept)
+ - added functions 'relDriver_memSet()' , 'relDriver_relSet()'
+ - disregarded pushbuttons functionality linked to menu browsing and implemented pushbuttons functions to drive relays respectively
+ - 2-wire/4-wire switching not allowed when output is connected (ON)
+ - if output change from OFF to ON while 4 wire config - display warning message to make physical connections - wait to press OK to continue!
