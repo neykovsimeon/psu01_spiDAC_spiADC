@@ -16,6 +16,8 @@ void current_protection_set_display (void);
 void current_limit_set_display (void);
 void current_auto_limit_set_display (void);
 void protection_display (void);
+void warning_display_ONOFF (void);
+void warning_display_4wires (void);
 void show_on_screen (unsigned char screen_mode);
 
 #endif	/* DISPLAY_FUNCTIONS_H */

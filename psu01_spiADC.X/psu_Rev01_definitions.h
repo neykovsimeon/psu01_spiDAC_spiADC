@@ -28,8 +28,11 @@
 #define I_MODE_PCONST           2           // limit power disipation og the output driver no more than 6W (I limit/prot = 6 / (Uin-Uo))
 #define FINE                    1           // step size fine
 #define ROUGH                   0           // step size rough
+#define OPEN                    1
+#define CLOSE                   0
 
 // output settings - spi dac variables
+unsigned int DAC_u_buffer = 0;
 unsigned int DAC_i = 2;
 unsigned int DAC_u = 2;
 unsigned char cmd_dac_i_high = 0;
@@ -37,6 +40,8 @@ unsigned char dac_i_low = 0;
 unsigned char cmd_dac_u_high = 0;
 unsigned char dac_u_low = 0;
 unsigned char cmd_dac = 0b01110000;
+unsigned char outON = 0;    // 0 means out is OFF (disconnected) and 1 means out is ON (connected)
+unsigned char out4Wire = 0; // 0 means out is default 2Wire and 1 means out is 4Wite configured
 
 float voltage_set_u =0;
 float voltage_set_i =0;
@@ -49,6 +54,7 @@ unsigned char cmd_dig_pot = 0;
 unsigned char send_byte = 0;
 unsigned int display_contrast = 200;     
 unsigned int display_brightness = 90; 
+unsigned char relDriver_memBuffer = 0xFF; // initial status of relay driver buffer match all opened.
 
 // embedded panel instrument -> adc variables
 uint8_t spiADC_L = 0;

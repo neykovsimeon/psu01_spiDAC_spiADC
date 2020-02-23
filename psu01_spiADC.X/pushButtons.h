@@ -8,7 +8,8 @@
 #ifndef PUSHBUTTONS_H
 #define	PUSHBUTTONS_H
 
-void pushButtons_display_settings(void);
+//void pushButtons_display_settings(void);
+void pushButtons_relDriver();
 
 #endif	/* PUSHBUTTONS_H */
 

@@ -1,1 +1,0 @@
- build/default/production/readaddr.d  build/default/production/readaddr.p1:  readaddr.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

@@ -1,1 +1,0 @@
- build/default/production/ADC_user_functions.d  build/default/production/ADC_user_functions.p1:  ADC_user_functions.c spiADC.h SPI_user_functions.h psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/delays.h

@@ -5,6 +5,15 @@
 #include "digi_pot_MCP42010.h"
 #include "SPI_user_functions.h"
 
+void init_relDriver_SPI (void) {
+    
+    unsigned char config_sync_mode = SPI_FOSC_64; 
+    unsigned char config_bus_mode = MODE_00;
+    unsigned char config_smp_phase = SMPMID;
+    
+    OpenSPI( config_sync_mode, config_bus_mode, config_smp_phase);
+}
+
 void init_dig_pot_SPI (void) {
     
     unsigned char config_sync_mode = SPI_FOSC_64; 

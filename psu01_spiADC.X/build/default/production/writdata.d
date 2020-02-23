@@ -1,1 +1,0 @@
- build/default/production/writdata.d  build/default/production/writdata.p1:  writdata.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

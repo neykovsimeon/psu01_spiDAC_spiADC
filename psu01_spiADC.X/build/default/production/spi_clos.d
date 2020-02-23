@@ -1,1 +1,0 @@
- build/default/production/spi_clos.d  build/default/production/spi_clos.p1:  spi_clos.c ../../pic18_plib/include/plib/spi.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/pconfig.h ../../pic18_plib/include/plib/p18cxxx.h
