@@ -1,5 +1,6 @@
 Circuit: * C:\Users\monka\Desktop\Projects\linear_psu\psu01_spiDAC_spiADC\LTSpice\PSU_current_sense_low_side_concept_design\PSU1.17_LowSide_CurrentLimit_optoUIreg.asc
 
+WARNING: Less than two connections to node NC_01.  This node is used by R51.
 Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
 Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
 Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
@@ -73,427 +74,2658 @@ Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 21.2595%
-Source Step = 21.733%
-Source Step = 22.2064%
-Source Step = 22.6799%
-Source Step = 23.1534%
-Source Step = 23.6269%
-vernier = 0.0234375
-Source Step = 24.3371%
+Source Step = 9.84848%
+Source Step = 17.4242%
+Source Step = 25%
+Source Step = 25.0178%
 Source Step = 25.0473%
-Source Step = 25.7576%
-Source Step = 26.4678%
-Source Step = 27.178%
-vernier = 0.0351563
-Source Step = 28.2079%
-Source Step = 28.2611%
-Source Step = 28.3277%
-Source Step = 28.3943%
-Source Step = 28.4609%
-Source Step = 28.5275%
+Source Step = 25.0769%
+Source Step = 25.1065%
+Source Step = 25.1361%
+vernier = 0.00146484
+Source Step = 25.1702%
+Source Step = 25.2145%
+Source Step = 25.2589%
+Source Step = 25.3033%
+Source Step = 25.3477%
+vernier = 0.00219727
+Source Step = 25.3965%
+Source Step = 25.4631%
+Source Step = 25.5297%
+Source Step = 25.5963%
+Source Step = 25.6629%
 vernier = 0.0032959
-Source Step = 28.6074%
-Source Step = 28.7072%
-Source Step = 28.8071%
-Source Step = 28.907%
-Source Step = 29.0069%
+Source Step = 25.7328%
+Source Step = 25.8327%
+Source Step = 25.9325%
+Source Step = 26.0324%
+Source Step = 26.1323%
+Source Step = 26.2322%
 vernier = 0.00494385
-Source Step = 29.1217%
-Source Step = 29.2715%
-Source Step = 29.4213%
-Source Step = 29.5712%
-Source Step = 29.721%
+Source Step = 26.382%
+Source Step = 26.5318%
+Source Step = 26.6816%
+Source Step = 26.8314%
+Source Step = 26.9812%
 vernier = 0.00741577
-Source Step = 29.8858%
-Source Step = 30.1105%
-Source Step = 30.3352%
-Source Step = 30.5599%
-Source Step = 30.7847%
+Source Step = 27.1985%
+Source Step = 27.4232%
+Source Step = 27.6479%
+Source Step = 27.8726%
+Source Step = 28.0973%
 vernier = 0.0111237
-Source Step = 31.0206%
-Source Step = 31.3577%
-Source Step = 31.6948%
-Source Step = 32.0319%
-Source Step = 32.3689%
-Source Step = 32.706%
+Source Step = 28.412%
+Source Step = 28.749%
+Source Step = 29.0861%
+Source Step = 29.4232%
+Source Step = 29.7603%
 vernier = 0.0166855
-Source Step = 33.2116%
-Source Step = 33.7173%
-Source Step = 34.2229%
-Source Step = 34.7285%
-Source Step = 35.2341%
+Source Step = 30.2153%
+Source Step = 30.721%
+Source Step = 31.2266%
+Source Step = 31.7322%
+Source Step = 32.2378%
 vernier = 0.0250282
-Source Step = 35.9673%
-Source Step = 36.7257%
-Source Step = 37.4841%
-Source Step = 38.2426%
-Source Step = 39.001%
+Source Step = 32.8951%
+Source Step = 33.6536%
+Source Step = 34.412%
+Source Step = 35.1704%
+Source Step = 35.9289%
 vernier = 0.0375423
-Source Step = 40.0628%
-Source Step = 41.2004%
-Source Step = 42.3381%
-Source Step = 43.4757%
-Source Step = 44.6134%
+Source Step = 36.8769%
+Source Step = 38.0145%
+Source Step = 39.1522%
+Source Step = 40.2898%
+Source Step = 41.4275%
 vernier = 0.0563135
-Source Step = 46.1492%
-Source Step = 47.8557%
-Source Step = 49.5621%
-Source Step = 51.2686%
-Source Step = 52.9751%
+Source Step = 42.7927%
+Source Step = 44.4991%
+Source Step = 46.2056%
+Source Step = 47.9121%
+Source Step = 49.6185%
 vernier = 0.0844703
-Source Step = 55.1935%
-Source Step = 57.7532%
-Source Step = 60.3129%
-Source Step = 62.8726%
-Source Step = 65.4323%
+Source Step = 51.581%
+Source Step = 54.1407%
+Source Step = 56.7004%
+Source Step = 59.2601%
+Source Step = 61.8198%
 vernier = 0.126705
-Source Step = 68.6319%
-Source Step = 72.4715%
-Source Step = 76.3111%
-Source Step = 80.1506%
-Source Step = 83.9902%
-vernier = 0.190058
-Source Step = 88.5976%
-Source Step = 94.357%
+Source Step = 64.6355%
+Source Step = 68.475%
+vernier = 0.0316764
+Source Step = 68.1391%
+Source Step = 68.1991%
+Source Step = 68.2591%
+Source Step = 68.319%
+Source Step = 68.379%
+vernier = 0.00296966
+Source Step = 68.457%
+Source Step = 68.547%
+Source Step = 68.637%
+Source Step = 68.727%
+Source Step = 68.817%
+vernier = 0.00445449
+Source Step = 68.9295%
+Source Step = 69.0645%
+Source Step = 69.1994%
+Source Step = 69.3344%
+Source Step = 69.4694%
+vernier = 0.00668173
+Source Step = 69.6314%
+Source Step = 69.8339%
+Source Step = 70.0364%
+Source Step = 70.2388%
+Source Step = 70.4413%
+vernier = 0.0100226
+Source Step = 70.6742%
+Source Step = 70.9779%
+Source Step = 71.2816%
+Source Step = 71.5853%
+Source Step = 71.889%
+vernier = 0.0150339
+Source Step = 72.2231%
+Source Step = 72.6787%
+Source Step = 73.1342%
+Source Step = 73.5898%
+Source Step = 74.0454%
+vernier = 0.0225508
+Source Step = 74.5237%
+Source Step = 75.2071%
+Source Step = 75.8905%
+Source Step = 76.5738%
+Source Step = 77.2572%
+Source Step = 77.9405%
+vernier = 0.0338263
+Source Step = 78.9656%
+Source Step = 79.9906%
+Source Step = 81.0156%
+Source Step = 82.0407%
+Source Step = 83.0657%
+vernier = 0.0507394
+Source Step = 84.552%
+Source Step = 86.0896%
+Source Step = 87.6271%
+Source Step = 89.1647%
+Source Step = 90.4332%
+Source Step = 90.5485%
+Source Step = 90.6446%
+Source Step = 90.7407%
+Source Step = 90.8368%
+Source Step = 90.9329%
+Source Step = 91.029%
+Source Step = 91.1251%
+Source Step = 91.2212%
+Source Step = 91.3173%
+Source Step = 91.4134%
+Source Step = 91.5095%
+Source Step = 91.6056%
+Source Step = 91.7017%
+Source Step = 91.7978%
+Source Step = 91.8939%
+Source Step = 91.99%
+Source Step = 92.0861%
+Source Step = 92.1822%
+Source Step = 92.2783%
+Source Step = 92.3744%
+Source Step = 92.4705%
+Source Step = 92.5665%
+Source Step = 92.6626%
+Source Step = 92.7587%
+Source Step = 92.8548%
+Source Step = 92.9509%
+Source Step = 93.047%
+Source Step = 93.1431%
+Source Step = 93.2392%
+Source Step = 93.3353%
+Source Step = 93.4314%
+Source Step = 93.5275%
+Source Step = 93.6236%
+Source Step = 93.7197%
+Source Step = 93.8158%
+Source Step = 93.9119%
+Source Step = 94.008%
+Source Step = 94.1041%
+Source Step = 94.2002%
+Source Step = 94.2963%
+Source Step = 94.3924%
+Source Step = 94.4885%
+Source Step = 94.5846%
+Source Step = 94.6807%
+Source Step = 94.7768%
+Source Step = 94.8729%
+Source Step = 94.969%
+Source Step = 95.0651%
+Source Step = 95.1612%
+Source Step = 95.2573%
+Source Step = 95.3534%
+Source Step = 95.4495%
+Source Step = 95.5456%
+Source Step = 95.6417%
+Source Step = 95.7378%
+Source Step = 95.8339%
+Source Step = 95.93%
+Source Step = 96.0261%
+Source Step = 96.1221%
+Source Step = 96.2182%
+Source Step = 96.3143%
+Source Step = 96.4104%
+Source Step = 96.5065%
+Source Step = 96.6026%
+Source Step = 96.6987%
+Source Step = 96.7948%
+Source Step = 96.8909%
+Source Step = 96.987%
+Source Step = 97.0831%
+Source Step = 97.1792%
+Source Step = 97.2753%
+Source Step = 97.3714%
+Source Step = 97.4675%
+Source Step = 97.5636%
+Source Step = 97.6597%
+Source Step = 97.7558%
+Source Step = 97.8519%
+Source Step = 97.948%
+Source Step = 98.0441%
+Source Step = 98.1402%
+Source Step = 98.2363%
+Source Step = 98.3324%
+Source Step = 98.4285%
+Source Step = 98.5246%
+Source Step = 98.6207%
+Source Step = 98.7168%
+Source Step = 98.8129%
+Source Step = 98.909%
+Source Step = 99.0051%
+Source Step = 99.1012%
+Source Step = 99.1973%
+Source Step = 99.2934%
+Source Step = 99.3895%
+Source Step = 99.4856%
+Source Step = 99.5817%
+Source Step = 99.6778%
+Source Step = 99.7738%
+Source Step = 99.8699%
+Source Step = 99.966%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping aborted.
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.0118%
+vernier = 0.000976563
+Source Step = 99.0296%
+Source Step = 99.0592%
+Source Step = 99.0888%
+Source Step = 99.1184%
+Source Step = 99.148%
+Source Step = 99.1776%
+Source Step = 99.2071%
+Source Step = 99.2367%
+Source Step = 99.2663%
+Source Step = 99.2959%
+Source Step = 99.3255%
+Source Step = 99.3551%
+Source Step = 99.3847%
+Source Step = 99.4143%
+Source Step = 99.4439%
+Source Step = 99.4735%
+Source Step = 99.5031%
+Source Step = 99.5327%
+Source Step = 99.5623%
+Source Step = 99.5919%
+Source Step = 99.6214%
+Source Step = 99.651%
+Source Step = 99.6806%
+Source Step = 99.7102%
+Source Step = 99.7398%
+Source Step = 99.7694%
+Source Step = 99.799%
+Source Step = 99.8286%
+Source Step = 99.8582%
+Source Step = 99.8878%
+Source Step = 99.9174%
+Source Step = 99.947%
+Source Step = 99.9766%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
 Source Step = 100%
 Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:    d:u10:1       d3          d2        d:u9:1      d:u3:4
-Model:   u10:ld      nscw100     nscw100      u9:ld       u3:dx
-Id:      9.60e-03    1.56e-11    7.13e-03    3.83e-12   -2.56e-12
-Vd:      1.07e+00    2.31e-04    3.28e+00    5.08e-01   -2.55e+00
-Req:     2.69e+00    1.47e+07    3.49e+01    7.72e+09    1.00e+12
-CAP:     4.00e-11    4.20e-11    2.21e-10    2.56e-11    0.00e+00
 
-Name:    d:u3:3      d:u3:2      d:u3:1      d:u8:4      d:u8:3
-Model:    u3:dx       u3:dx       u3:dx       u8:dx       u8:dx
-Id:     -2.46e-12    1.00e-04   -3.58e-12   -2.51e-12   -2.51e-12
-Vd:     -2.45e+00    5.96e-01   -3.57e+00   -2.50e+00   -2.50e+00
-Req:     1.00e+12    2.59e+02    1.00e+12    1.00e+12    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u8:2      d:u8:1      d:u7:4      d:u7:3      d:u7:2
-Model:    u8:dx       u8:dx       u7:dx       u7:dx       u7:dx
-Id:      1.00e-04   -3.58e-12   -2.51e-12   -2.51e-12    1.00e-04
-Vd:      5.96e-01   -3.57e+00   -2.50e+00   -2.50e+00    5.96e-01
-Req:     2.59e+02    1.00e+12    1.00e+12    1.00e+12    2.59e+02
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u7:1      d:u6:4      d:u6:3      d:u6:2      d:u6:1
-Model:    u7:dx       u6:dx       u6:dx       u6:dx       u6:dx
-Id:     -3.08e-12   -5.56e-12    1.50e-05    6.24e-08   -3.10e-12
-Vd:     -3.07e+00   -5.55e+00    5.47e-01    4.05e-01   -3.09e+00
-Req:     1.00e+12    1.00e+12    1.72e+03    4.14e+05    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u5:4      d:u5:3      d:u5:2      d:u5:1      d:u4:4
-Model:    u5:dx       u5:dx       u5:dx       u5:dx       u4:dx
-Id:     -2.51e-12   -2.51e-12    1.00e-04   -3.36e-12   -2.51e-12
-Vd:     -2.50e+00   -2.50e+00    5.96e-01   -3.35e+00   -2.50e+00
-Req:     1.00e+12    1.00e+12    2.59e+02    1.00e+12    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u4:3      d:u4:2      d:u4:1        d5          d1
-Model:    u4:dx       u4:dx       u4:dx         d           d
-Id:     -2.51e-12    1.00e-04   -3.13e-12    3.71e-13    5.14e-03
-Vd:     -2.50e+00    5.96e-01   -3.12e+00    8.74e-02    6.97e-01
-Req:     1.00e+12    2.59e+02    1.00e+12    8.09e+10    5.03e+00
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u2:4      d:u2:3      d:u2:2      d:u2:1      d:u1:4
-Model:    u2:dx       u2:dx       u2:dx       u2:dx       u1:dx
-Id:     -2.51e-12   -2.51e-12    1.00e-04   -3.13e-12   -5.47e-12
-Vd:     -2.50e+00   -2.50e+00    5.96e-01   -3.12e+00   -5.46e+00
-Req:     1.00e+12    1.00e+12    2.59e+02    1.00e+12    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u1:3      d:u1:2      d:u1:1
-Model:    u1:dx       u1:dx       u1:dx
-Id:      4.91e-07    1.00e-04   -3.14e-12
-Vd:      4.58e-01    5.96e-01   -3.13e+00
-Req:     5.27e+04    2.59e+02    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00
-
-                        --- Bipolar Transistors ---
-Name:     q:u10:1     q:u9:1        q8          q7          q9
-Model:    u10:np       u9:np      bc557c      bc557c      bc547c
-Ib:       4.42e-05    1.77e-14   -1.94e-05   -2.00e-05    1.64e-05
-Ic:       7.08e-03    1.56e-11   -9.65e-03   -8.17e-03    8.21e-03
-Vbe:      8.27e-01    2.83e-01   -6.80e-01   -6.80e-01    6.76e-01
-Vbc:      6.78e-01   -4.72e+00    5.06e+00    0.00e+00   -7.90e+00
-Vce:      1.49e-01    5.00e+00   -5.74e+00   -6.80e-01    8.57e+00
-BetaDC:   1.60e+02    8.80e+02    4.98e+02    4.08e+02    4.99e+02
-Gm:       2.58e-01    2.28e-10    3.35e-01    2.82e-01    2.99e-01
-Rpi:      2.58e+03    8.63e+09    1.36e+03    1.31e+03    1.59e+03
-Rx:       0.00e+00    0.00e+00    1.00e+00    1.00e+00    1.00e+00
-Ro:       8.26e+02    2.45e+13    2.95e+03    2.87e+03    7.36e+03
-Cbe:      1.23e-11    8.19e-12    2.12e-10    1.87e-10    1.76e-10
-Cbc:      3.04e-11    9.86e-12    1.75e-12    4.92e-12    9.77e-13
-Cjs:      7.00e-12    7.00e-12    0.00e+00    0.00e+00    0.00e+00
-BetaAC:   6.65e+02    1.97e+00    4.54e+02    3.71e+02    4.76e+02
-Cbx:      0.00e+00    0.00e+00    1.03e-12    2.91e-12    6.01e-13
-Ft:       9.61e+08    1.73e+00    2.48e+08    2.31e+08    2.68e+08
-
-Name:       q5          q6          q3          q4          q2
-Model:    bc547c      bc547c      2n3055      2n3055      2n3055
-Ib:       2.14e-05   -3.78e-12    2.60e-03    2.60e-03    2.60e-03
-Ic:       9.60e-03    3.83e-12    1.63e-01    1.63e-01    1.63e-01
-Vbe:      6.83e-01    3.80e-08    4.13e-01    4.13e-01    4.13e-01
-Vbc:     -2.49e+00   -3.75e+00   -6.44e+00   -6.44e+00   -6.44e+00
-Vce:      3.17e+00    3.75e+00    6.86e+00    6.86e+00    6.86e+00
-BetaDC:   4.48e+02   -1.01e+00    6.27e+01    6.27e+01    6.27e+01
-Gm:       3.46e-01    1.92e-12    5.54e+00    5.54e+00    5.54e+00
-Rpi:      1.22e+03    9.36e+11    9.93e+00    9.93e+00    9.93e+00
-Rx:       1.00e+00    1.00e+00    8.10e-01    8.10e-01    8.10e-01
-Ro:       5.73e+03    1.13e+15    0.00e+00    0.00e+00    0.00e+00
-Cbe:      2.03e-10    1.23e-11    5.52e-07    5.52e-07    5.52e-07
-Cbc:      1.33e-12    1.19e-12    4.74e-10    4.74e-10    4.74e-10
-Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-BetaAC:   4.22e+02    1.79e+00    5.50e+01    5.50e+01    5.50e+01
-Cbx:      8.17e-13    7.33e-13    0.00e+00    0.00e+00    0.00e+00
-Ft:       2.68e+08    1.78e-02    1.60e+06    1.60e+06    1.60e+06
-
-Name:       q1
-Model:    2n2219a
-Ib:       5.16e-05
-Ic:       9.64e-03
-Vbe:      7.04e-01
-Vbc:     -5.74e+00
-Vce:      6.44e+00
-BetaDC:   1.87e+02
-Gm:       3.62e-01
-Rpi:      5.39e+02
-Rx:       1.00e+01
-Ro:       8.27e+03
-Cbe:      1.87e-10
-Cbc:      3.50e-12
-Cjs:      0.00e+00
-BetaAC:   1.95e+02
-Cbx:      0.00e+00
-Ft:       3.02e+08
-
-                        --- MOSFET Transistors ---
-Name:        m:u3:6      m:u3:5      m:u3:4      m:u3:3      m:u3:2
-Model:       u3:nox      u3:pox      u3:nix      u3:nix      u3:pix
-Id:          1.95e-04   -1.73e-04    1.06e-11    1.06e-11   -5.00e-05
-Vgs:         5.59e-01   -4.78e-01    3.46e-01    3.46e-01   -1.08e+00
-Vds:         5.00e-02   -4.95e+00    5.30e+00    5.30e+00   -8.25e-01
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:         3.28e-01   -3.28e-01    1.00e+00    1.00e+00   -1.00e+00
-Vdsat:       2.31e-01   -1.50e-01    0.00e+00    0.00e+00   -7.55e-02
-Gm:          9.50e-04    2.31e-03    0.00e+00    0.00e+00    1.32e-03
-Gds:         3.43e-03    1.82e-06    0.00e+00    0.00e+00    5.04e-07
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         3.53e-13    3.38e-13    0.00e+00    0.00e+00    4.01e-14
-Cgd:         3.00e-13    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    6.01e-14    6.01e-14    0.00e+00
-
-Name:        m:u3:1      m:u8:6      m:u8:5      m:u8:4      m:u8:3
-Model:       u3:pix      u8:nox      u8:pox      u8:nix      u8:nix
-Id:         -5.00e-05    3.06e-04   -3.11e-04    1.06e-11    1.06e-11
-Vgs:        -1.08e+00    5.07e-01   -5.29e-01    3.46e-01    3.46e-01
-Vds:        -8.25e-01    5.00e-01   -4.50e+00    5.30e+00    5.30e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:        -1.00e+00    3.28e-01   -3.28e-01    1.00e+00    1.00e+00
-Vdsat:      -7.55e-02    1.79e-01   -2.01e-01    0.00e+00    0.00e+00
-Gm:          1.32e-03    3.42e-03    3.09e-03    0.00e+00    0.00e+00
-Gds:         5.04e-07    3.08e-06    3.26e-06    0.00e+00    0.00e+00
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.01e-14    4.37e-13    3.38e-13    0.00e+00    0.00e+00
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    0.00e+00    6.01e-14    6.01e-14
-
-Name:        m:u8:2      m:u8:1      m:u7:6      m:u7:5      m:u7:4
-Model:       u8:pix      u8:pix      u7:nox      u7:pox      u7:nix
-Id:         -5.00e-05   -5.00e-05    2.94e-04   -3.22e-04    1.06e-11
-Vgs:        -1.08e+00   -1.08e+00    5.04e-01   -5.33e-01    8.46e-01
-Vds:        -8.25e-01   -8.25e-01    5.50e-01   -4.45e+00    5.30e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:        -1.00e+00   -1.00e+00    3.28e-01   -3.28e-01    1.00e+00
-Vdsat:      -7.55e-02   -7.55e-02    1.76e-01   -2.05e-01    0.00e+00
-Gm:          1.32e-03    1.32e-03    3.35e-03    3.15e-03    0.00e+00
-Gds:         5.04e-07    5.04e-07    2.96e-06    3.37e-06    0.00e+00
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.01e-14    4.01e-14    4.37e-13    3.38e-13    1.95e-14
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    1.54e-14
-
-Name:        m:u7:3      m:u7:2      m:u7:1      m:u6:6      m:u6:5
-Model:       u7:nix      u7:pix      u7:pix      u6:nox      u6:pox
-Id:          1.06e-11   -5.00e-05   -5.00e-05    1.38e-11   -1.00e-11
-Vgs:         8.46e-01   -1.08e+00   -1.08e+00    3.55e+00    2.52e+00
-Vds:         5.30e+00   -1.33e+00   -1.33e+00    2.25e-10   -5.00e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:         1.00e+00   -1.00e+00   -1.00e+00    3.28e-01   -3.28e-01
-Vdsat:       0.00e+00   -7.53e-02   -7.53e-02    3.22e+00   -0.00e+00
-Gm:          0.00e+00    1.33e-03    1.33e-03    4.28e-12    0.00e+00
-Gds:         0.00e+00    5.07e-07    5.07e-07    6.13e-02    0.00e+00
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         1.95e-14    4.01e-14    4.01e-14    3.28e-13    0.00e+00
-Cgd:         0.00e+00    0.00e+00    0.00e+00    3.28e-13    0.00e+00
-Cgb:         1.54e-14    0.00e+00    0.00e+00    0.00e+00    5.08e-13
-
-Name:        m:u6:4      m:u6:3      m:u6:2      m:u6:1      m:u5:6
-Model:       u6:nix      u6:nix      u6:pix      u6:pix      u5:nox
-Id:          9.99e-05    1.02e-11   -3.22e-12   -1.00e-04    2.97e-04
-Vgs:         1.10e+00    6.05e-01   -6.07e-01   -1.11e+00    5.04e-01
-Vds:         4.50e+00    5.10e+00   -1.61e+00   -1.01e+00    5.00e-01
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:         1.00e+00    1.00e+00   -1.00e+00   -1.00e+00    3.28e-01
-Vdsat:       1.05e-01    0.00e+00   -0.00e+00   -1.07e-01    1.76e-01
-Gm:          1.91e-03    0.00e+00    0.00e+00    1.88e-03    3.37e-03
-Gds:         1.05e-06    0.00e+00    0.00e+00    1.01e-06    2.98e-06
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.01e-14    0.00e+00    4.01e-14    4.01e-14    4.37e-13
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    3.96e-14    0.00e+00    0.00e+00    0.00e+00
-
-Name:        m:u5:5      m:u5:4      m:u5:3      m:u5:2      m:u5:1
-Model:       u5:pox      u5:nix      u5:nix      u5:pix      u5:pix
-Id:         -3.19e-04    1.06e-11    1.06e-11   -5.00e-05   -5.00e-05
-Vgs:        -5.32e-01    5.71e-01    5.71e-01   -1.08e+00   -1.08e+00
-Vds:        -4.50e+00    5.30e+00    5.30e+00   -1.05e+00   -1.05e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:        -3.28e-01    1.00e+00    1.00e+00   -1.00e+00   -1.00e+00
-Vdsat:      -2.04e-01    0.00e+00    0.00e+00   -7.54e-02   -7.54e-02
-Gm:          3.14e-03    0.00e+00    0.00e+00    1.33e-03    1.33e-03
-Gds:         3.35e-06    0.00e+00    0.00e+00    5.05e-07    5.05e-07
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         3.38e-13    0.00e+00    0.00e+00    4.01e-14    4.01e-14
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    4.30e-14    4.30e-14    0.00e+00    0.00e+00
-
-Name:        m:u4:6      m:u4:5      m:u4:4      m:u4:3      m:u4:2
-Model:       u4:nox      u4:pox      u4:nix      u4:nix      u4:pix
-Id:          2.97e-04   -3.19e-04    1.06e-11    1.06e-11   -5.00e-05
-Vgs:         5.04e-01   -5.32e-01    7.96e-01    7.96e-01   -1.08e+00
-Vds:         8.98e-01   -4.10e+00    5.30e+00    5.30e+00   -1.28e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:         3.28e-01   -3.28e-01    1.00e+00    1.00e+00   -1.00e+00
-Vdsat:       1.76e-01   -2.04e-01    0.00e+00    0.00e+00   -7.53e-02
-Gm:          3.38e-03    3.13e-03    0.00e+00    0.00e+00    1.33e-03
-Gds:         3.00e-06    3.32e-06    0.00e+00    0.00e+00    5.06e-07
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.37e-13    3.38e-13    1.28e-14    1.28e-14    4.01e-14
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    2.04e-14    2.04e-14    0.00e+00
-
-Name:        m:u4:1      m:u2:6      m:u2:5      m:u2:4      m:u2:3
-Model:       u4:pix      u2:nox      u2:pox      u2:nix      u2:nix
-Id:         -5.00e-05    3.08e-04   -3.09e-04    1.06e-11    1.06e-11
-Vgs:        -1.08e+00    5.08e-01   -5.28e-01    7.96e-01    7.96e-01
-Vds:        -1.28e+00    5.00e-01   -4.50e+00    5.30e+00    5.30e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:        -1.00e+00    3.28e-01   -3.28e-01    1.00e+00    1.00e+00
-Vdsat:      -7.53e-02    1.80e-01   -2.00e-01    0.00e+00    0.00e+00
-Gm:          1.33e-03    3.43e-03    3.08e-03    0.00e+00    0.00e+00
-Gds:         5.06e-07    3.10e-06    3.24e-06    0.00e+00    0.00e+00
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.01e-14    4.37e-13    3.38e-13    1.28e-14    1.28e-14
-Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    0.00e+00    2.04e-14    2.04e-14
-
-Name:        m:u2:2      m:u2:1      m:u1:6      m:u1:5      m:u1:4
-Model:       u2:pix      u2:pix      u1:nox      u1:pox      u1:nix
-Id:         -5.00e-05   -5.00e-05    5.14e-03   -9.84e-12    1.06e-11
-Vgs:        -1.08e+00   -1.08e+00    3.46e+00    2.43e+00    7.96e-01
-Vds:        -1.28e+00   -1.28e+00    8.74e-02   -4.91e+00    5.30e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Vth:        -1.00e+00   -1.00e+00    3.28e-01   -3.28e-01    1.00e+00
-Vdsat:      -7.53e-02   -7.53e-02    3.14e+00   -0.00e+00    0.00e+00
-Gm:          1.33e-03    1.33e-03    1.66e-03    0.00e+00    0.00e+00
-Gds:         5.06e-07    5.06e-07    5.80e-02    0.00e+00    0.00e+00
-Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cgs:         4.01e-14    4.01e-14    3.31e-13    0.00e+00    1.28e-14
-Cgd:         0.00e+00    0.00e+00    3.25e-13    0.00e+00    0.00e+00
-Cgb:         0.00e+00    0.00e+00    0.00e+00    5.08e-13    2.04e-14
-
-Name:        m:u1:3      m:u1:2      m:u1:1
-Model:       u1:nix      u1:pix      u1:pix
-Id:          1.06e-11   -4.67e-05   -5.33e-05
-Vgs:         7.91e-01   -1.07e+00   -1.08e+00
-Vds:         5.30e+00   -1.29e+00   -1.25e+00
-Vbs:         0.00e+00    0.00e+00    0.00e+00
-Vth:         1.00e+00   -1.00e+00   -1.00e+00
-Vdsat:       0.00e+00   -7.28e-02   -7.77e-02
-Gm:          0.00e+00    1.28e-03    1.37e-03
-Gds:         0.00e+00    4.73e-07    5.40e-07
-Gmb:         0.00e+00    0.00e+00    0.00e+00
-Cbd:         0.00e+00    0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00    0.00e+00
-Cgs:         1.22e-14    4.01e-14    4.01e-14
-Cgd:         0.00e+00    0.00e+00    0.00e+00
-Cgb:         2.09e-14    0.00e+00    0.00e+00
-
-
-
-Date: Sun Jul 21 08:33:22 2019
-Total elapsed time: 2.547 seconds.
+Date: Sun Feb 09 21:02:46 2020
+Total elapsed time: 373.483 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 5094
-traniter = 0
-tranpoints = 0
-accept = 0
+method = modified trap
+totiter = 3165524
+traniter = 6040
+tranpoints = 3021
+accept = 3021
 rejected = 0
-matrix size = 463
-fillins = 642
+matrix size = 468
+fillins = 810
 solver = Normal
-Thread vector: 46.0/24.1[7] 0.0/0.0[0] 13.0/4.3[7] 2.8/2.1[5]  2592/500
-Matrix Compiler1: 52.05 KB object code size
-Matrix Compiler2: 51.38 KB object code size  10.9/11.1/[3.7]
+Thread vector: 38.2/24.7[7] 20.3/10.9[7] 15.0/4.4[7] 3.2/2.0[7]  2592/500
+Matrix Compiler1: 70.87 KB object code size  20.1/10.2/[6.3]
+Matrix Compiler2: 54.43 KB object code size  10.9/11.2/[4.1]
 

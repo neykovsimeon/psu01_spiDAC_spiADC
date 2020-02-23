@@ -1,0 +1,1010 @@
+Circuit: * C:\Users\monka\Desktop\Projects\linear_psu\psu01_spiDAC_spiADC\LTSpice\PSU_current_sense_low_side_concept_design\PSU1.17_LowSide_CurrentLimit_optoUIreg_VbfClamp.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by R51.
+Instance "m:u11:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u11:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u8:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u7:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 28.0303%
+vernier = 0.0625
+Source Step = 27.2934%
+Source Step = 27.323%
+Source Step = 27.3526%
+Source Step = 27.3822%
+Source Step = 27.4118%
+vernier = 0.00146484
+Source Step = 27.4473%
+Source Step = 27.4917%
+Source Step = 27.5361%
+Source Step = 27.5805%
+Source Step = 27.6249%
+vernier = 0.00219727
+Source Step = 27.6759%
+Source Step = 27.7425%
+Source Step = 27.8091%
+Source Step = 27.8757%
+Source Step = 27.9423%
+vernier = 0.0032959
+Source Step = 28.0155%
+Source Step = 28.1154%
+Source Step = 28.2153%
+Source Step = 28.3151%
+Source Step = 28.415%
+vernier = 0.00494385
+Source Step = 28.5199%
+Source Step = 28.6697%
+Source Step = 28.8195%
+Source Step = 28.9693%
+Source Step = 29.1191%
+Source Step = 29.2689%
+vernier = 0.00741577
+Source Step = 29.4937%
+Source Step = 29.7184%
+Source Step = 29.9431%
+Source Step = 30.1678%
+Source Step = 30.3925%
+vernier = 0.0111237
+Source Step = 30.7184%
+Source Step = 31.0555%
+Source Step = 31.3926%
+Source Step = 31.7296%
+Source Step = 32.0667%
+vernier = 0.0166855
+Source Step = 32.5386%
+Source Step = 33.0442%
+Source Step = 33.5499%
+Source Step = 34.0555%
+Source Step = 34.5611%
+vernier = 0.0250282
+Source Step = 35.2437%
+Source Step = 36.0021%
+Source Step = 36.7606%
+Source Step = 37.519%
+Source Step = 38.2774%
+vernier = 0.0375423
+Source Step = 39.2634%
+Source Step = 40.401%
+Source Step = 41.5387%
+Source Step = 42.6763%
+Source Step = 43.814%
+vernier = 0.0563135
+Source Step = 45.236%
+Source Step = 46.9425%
+Source Step = 48.649%
+Source Step = 50.3554%
+Source Step = 52.0619%
+vernier = 0.0844703
+Source Step = 54.1097%
+Source Step = 56.6694%
+Source Step = 59.2291%
+Source Step = 61.7888%
+Source Step = 64.3485%
+vernier = 0.126705
+Source Step = 67.2922%
+Source Step = 71.1317%
+Source Step = 74.9713%
+Source Step = 78.8108%
+Source Step = 82.6504%
+vernier = 0.190058
+Source Step = 86.8739%
+Source Step = 90.3385%
+Source Step = 90.4285%
+Source Step = 90.5185%
+Source Step = 90.6085%
+Source Step = 90.6985%
+Source Step = 90.7885%
+Source Step = 90.8784%
+Source Step = 90.9684%
+Source Step = 91.0584%
+Source Step = 91.1484%
+Source Step = 91.2384%
+Source Step = 91.3284%
+Source Step = 91.4184%
+Source Step = 91.5084%
+Source Step = 91.5984%
+Source Step = 91.6883%
+Source Step = 91.7783%
+Source Step = 91.8683%
+Source Step = 91.9583%
+Source Step = 92.0483%
+Source Step = 92.1383%
+Source Step = 92.2283%
+Source Step = 92.3183%
+Source Step = 92.4083%
+Source Step = 92.4983%
+Source Step = 92.5882%
+Source Step = 92.6782%
+Source Step = 92.7682%
+Source Step = 92.8582%
+Source Step = 92.9482%
+Source Step = 93.0382%
+Source Step = 93.1282%
+Source Step = 93.2182%
+Source Step = 93.3082%
+Source Step = 93.3981%
+Source Step = 93.4881%
+Source Step = 93.5781%
+Source Step = 93.6681%
+Source Step = 93.7581%
+Source Step = 93.8481%
+Source Step = 93.9381%
+Source Step = 94.0281%
+Source Step = 94.1181%
+Source Step = 94.2081%
+Source Step = 94.298%
+Source Step = 94.388%
+Source Step = 94.478%
+Source Step = 94.568%
+Source Step = 94.658%
+Source Step = 94.748%
+Source Step = 94.838%
+Source Step = 94.928%
+Source Step = 95.018%
+Source Step = 95.108%
+Source Step = 95.1979%
+Source Step = 95.2879%
+Source Step = 95.3779%
+Source Step = 95.4679%
+Source Step = 95.5579%
+Source Step = 95.6479%
+Source Step = 95.7379%
+Source Step = 95.8279%
+Source Step = 95.9179%
+Source Step = 96.0078%
+Source Step = 96.0978%
+Source Step = 96.1878%
+Source Step = 96.2778%
+Source Step = 96.3678%
+Source Step = 96.4578%
+Source Step = 96.5478%
+Source Step = 96.6378%
+Source Step = 96.7278%
+Source Step = 96.8178%
+Source Step = 96.9077%
+Source Step = 96.9977%
+Source Step = 97.0877%
+Source Step = 97.1777%
+Source Step = 97.2677%
+Source Step = 97.3577%
+Source Step = 97.4477%
+Source Step = 97.5377%
+Source Step = 97.6277%
+Source Step = 97.7177%
+Source Step = 97.8076%
+Source Step = 97.8976%
+Source Step = 97.9876%
+Source Step = 98.0776%
+Source Step = 98.1676%
+Source Step = 98.2576%
+Source Step = 98.3476%
+Source Step = 98.4376%
+Source Step = 98.5276%
+Source Step = 98.6175%
+Source Step = 98.7075%
+Source Step = 98.7975%
+Source Step = 98.8875%
+Source Step = 98.9775%
+Source Step = 99.0675%
+Source Step = 99.1575%
+Source Step = 99.2475%
+Source Step = 99.3375%
+Source Step = 99.4275%
+Source Step = 99.5174%
+Source Step = 99.6074%
+Source Step = 99.6974%
+Source Step = 99.7874%
+Source Step = 99.8774%
+Source Step = 99.9674%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping aborted.
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.0059%
+Source Step = 99.0355%
+Source Step = 99.0651%
+Source Step = 99.0947%
+Source Step = 99.1243%
+Source Step = 99.1539%
+Source Step = 99.1835%
+Source Step = 99.2131%
+Source Step = 99.2427%
+Source Step = 99.2723%
+Source Step = 99.3018%
+Source Step = 99.3314%
+Source Step = 99.361%
+Source Step = 99.3906%
+Source Step = 99.4202%
+Source Step = 99.4498%
+Source Step = 99.4794%
+Source Step = 99.509%
+Source Step = 99.5386%
+Source Step = 99.5682%
+Source Step = 99.5978%
+Source Step = 99.6274%
+Source Step = 99.657%
+Source Step = 99.6866%
+Source Step = 99.7161%
+Source Step = 99.7457%
+Source Step = 99.7753%
+Source Step = 99.8049%
+Source Step = 99.8345%
+Source Step = 99.8641%
+Source Step = 99.8937%
+Source Step = 99.9233%
+Source Step = 99.9529%
+Source Step = 99.9825%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping aborted.
+Pseudo Transient failed in finding the operating point at 1.09922 s.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
+Heightened Def Con from 0 Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++to 1.125e-009
+Heightened Def Con from 1.12551e-009 to 1.61255e-008
+
+Date: Tue Jan 28 23:58:22 2020
+Total elapsed time: 292.191 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 782469
+traniter = 13466
+tranpoints = 4533
+accept = 3814
+rejected = 11280
+matrix size = 521
+fillins = 963
+solver = Normal
+Thread vector: 42.8/26.8[8] 21.1/11.5[8] 15.7/6.7[8] 3.4/2.1[8]  2592/500
+Matrix Compiler1: 89.84 KB object code size  24.7/12.2/[7.7]
+Matrix Compiler2: 61.08 KB object code size  12.0/12.2/[4.8]
+

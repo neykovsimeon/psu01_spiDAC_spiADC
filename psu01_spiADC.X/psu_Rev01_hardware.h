@@ -6,7 +6,7 @@
 //#include "xlcd.h"
 
 // user HW definitions
-#define DISPLAY_SET_MODE_SELECT RE3                     // digital input button, active low -> select contrast or brightness control
+#define Button_2Wite4Wite       RE3                     // ->> check it on your bread board !!!! digital input button, active low -> select contrast or brightness control
 #define SPI_CS_IOUT             LATAbits.LATA7          // digital output CS dac i set  
 #define ROTARY_DA               PORTAbits.RA4           // digital input button, active low -> contrast / brightness decrease
 #define SPI_CS_UOUT             LATBbits.LATB4          // digital output CS dac v set
@@ -21,7 +21,7 @@
 #define SPI_CS_ADC              LATAbits.LATA3          // digital output CS spiADC
 #define SPI_CS_IOEXT            LATAbits.LATA0          // digital output CS MCp23S08 io expander
 #define Button_ONOFF            PORTAbits.RA5           // digital input button, active low -> contrast / brightness increase
-#define Button_2Wite4Wite       PORTAbits.RA6           // digital input button, active low -> contrast / brightness decrease
+#define DISPLAY_SET_MODE_SELECT PORTAbits.RA6           // ->> check it on your bread board; digital input button, active low -> contrast / brightness decrease
 
 void init_GPIO_DIR (void);
 

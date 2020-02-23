@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=spi_clos.c spi_dtrd.c spi_gets.c spi_open.c spi_puts.c spi_read.c spi_writ.c openxlcd.c putrxlcd.c putsxlcd.c readaddr.c readdata.c setcgram.c setddram.c wcmdxlcd.c writdata.c busyxlcd.c LCD_user_functions.c display_functions.c lcd_menu.c psu_Rev01_menu.c psu_Rev01_spi.c pushButtons.c ADC_user_functions.c spiADC.c relDRiver.c
+SOURCEFILES_QUOTED_IF_SPACED=spi_clos.c spi_dtrd.c spi_gets.c spi_open.c spi_puts.c spi_read.c spi_writ.c openxlcd.c putrxlcd.c putsxlcd.c readaddr.c readdata.c setcgram.c setddram.c wcmdxlcd.c writdata.c busyxlcd.c LCD_user_functions.c display_functions.c lcd_menu.c psu_Rev01_menu.c psu_Rev01_spi.c pushButtons.c ADC_user_functions.c spiADC.c relDRiver.c comPort.c ubaud.c ubusy.c uclose.c udefs.c udrdy.c ugets.c uopen.c uputrs.c uputs.c uread.c uwrite.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/spi_clos.p1 ${OBJECTDIR}/spi_dtrd.p1 ${OBJECTDIR}/spi_gets.p1 ${OBJECTDIR}/spi_open.p1 ${OBJECTDIR}/spi_puts.p1 ${OBJECTDIR}/spi_read.p1 ${OBJECTDIR}/spi_writ.p1 ${OBJECTDIR}/openxlcd.p1 ${OBJECTDIR}/putrxlcd.p1 ${OBJECTDIR}/putsxlcd.p1 ${OBJECTDIR}/readaddr.p1 ${OBJECTDIR}/readdata.p1 ${OBJECTDIR}/setcgram.p1 ${OBJECTDIR}/setddram.p1 ${OBJECTDIR}/wcmdxlcd.p1 ${OBJECTDIR}/writdata.p1 ${OBJECTDIR}/busyxlcd.p1 ${OBJECTDIR}/LCD_user_functions.p1 ${OBJECTDIR}/display_functions.p1 ${OBJECTDIR}/lcd_menu.p1 ${OBJECTDIR}/psu_Rev01_menu.p1 ${OBJECTDIR}/psu_Rev01_spi.p1 ${OBJECTDIR}/pushButtons.p1 ${OBJECTDIR}/ADC_user_functions.p1 ${OBJECTDIR}/spiADC.p1 ${OBJECTDIR}/relDRiver.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/spi_clos.p1.d ${OBJECTDIR}/spi_dtrd.p1.d ${OBJECTDIR}/spi_gets.p1.d ${OBJECTDIR}/spi_open.p1.d ${OBJECTDIR}/spi_puts.p1.d ${OBJECTDIR}/spi_read.p1.d ${OBJECTDIR}/spi_writ.p1.d ${OBJECTDIR}/openxlcd.p1.d ${OBJECTDIR}/putrxlcd.p1.d ${OBJECTDIR}/putsxlcd.p1.d ${OBJECTDIR}/readaddr.p1.d ${OBJECTDIR}/readdata.p1.d ${OBJECTDIR}/setcgram.p1.d ${OBJECTDIR}/setddram.p1.d ${OBJECTDIR}/wcmdxlcd.p1.d ${OBJECTDIR}/writdata.p1.d ${OBJECTDIR}/busyxlcd.p1.d ${OBJECTDIR}/LCD_user_functions.p1.d ${OBJECTDIR}/display_functions.p1.d ${OBJECTDIR}/lcd_menu.p1.d ${OBJECTDIR}/psu_Rev01_menu.p1.d ${OBJECTDIR}/psu_Rev01_spi.p1.d ${OBJECTDIR}/pushButtons.p1.d ${OBJECTDIR}/ADC_user_functions.p1.d ${OBJECTDIR}/spiADC.p1.d ${OBJECTDIR}/relDRiver.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/spi_clos.p1 ${OBJECTDIR}/spi_dtrd.p1 ${OBJECTDIR}/spi_gets.p1 ${OBJECTDIR}/spi_open.p1 ${OBJECTDIR}/spi_puts.p1 ${OBJECTDIR}/spi_read.p1 ${OBJECTDIR}/spi_writ.p1 ${OBJECTDIR}/openxlcd.p1 ${OBJECTDIR}/putrxlcd.p1 ${OBJECTDIR}/putsxlcd.p1 ${OBJECTDIR}/readaddr.p1 ${OBJECTDIR}/readdata.p1 ${OBJECTDIR}/setcgram.p1 ${OBJECTDIR}/setddram.p1 ${OBJECTDIR}/wcmdxlcd.p1 ${OBJECTDIR}/writdata.p1 ${OBJECTDIR}/busyxlcd.p1 ${OBJECTDIR}/LCD_user_functions.p1 ${OBJECTDIR}/display_functions.p1 ${OBJECTDIR}/lcd_menu.p1 ${OBJECTDIR}/psu_Rev01_menu.p1 ${OBJECTDIR}/psu_Rev01_spi.p1 ${OBJECTDIR}/pushButtons.p1 ${OBJECTDIR}/ADC_user_functions.p1 ${OBJECTDIR}/spiADC.p1 ${OBJECTDIR}/relDRiver.p1 ${OBJECTDIR}/comPort.p1 ${OBJECTDIR}/ubaud.p1 ${OBJECTDIR}/ubusy.p1 ${OBJECTDIR}/uclose.p1 ${OBJECTDIR}/udefs.p1 ${OBJECTDIR}/udrdy.p1 ${OBJECTDIR}/ugets.p1 ${OBJECTDIR}/uopen.p1 ${OBJECTDIR}/uputrs.p1 ${OBJECTDIR}/uputs.p1 ${OBJECTDIR}/uread.p1 ${OBJECTDIR}/uwrite.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/spi_clos.p1.d ${OBJECTDIR}/spi_dtrd.p1.d ${OBJECTDIR}/spi_gets.p1.d ${OBJECTDIR}/spi_open.p1.d ${OBJECTDIR}/spi_puts.p1.d ${OBJECTDIR}/spi_read.p1.d ${OBJECTDIR}/spi_writ.p1.d ${OBJECTDIR}/openxlcd.p1.d ${OBJECTDIR}/putrxlcd.p1.d ${OBJECTDIR}/putsxlcd.p1.d ${OBJECTDIR}/readaddr.p1.d ${OBJECTDIR}/readdata.p1.d ${OBJECTDIR}/setcgram.p1.d ${OBJECTDIR}/setddram.p1.d ${OBJECTDIR}/wcmdxlcd.p1.d ${OBJECTDIR}/writdata.p1.d ${OBJECTDIR}/busyxlcd.p1.d ${OBJECTDIR}/LCD_user_functions.p1.d ${OBJECTDIR}/display_functions.p1.d ${OBJECTDIR}/lcd_menu.p1.d ${OBJECTDIR}/psu_Rev01_menu.p1.d ${OBJECTDIR}/psu_Rev01_spi.p1.d ${OBJECTDIR}/pushButtons.p1.d ${OBJECTDIR}/ADC_user_functions.p1.d ${OBJECTDIR}/spiADC.p1.d ${OBJECTDIR}/relDRiver.p1.d ${OBJECTDIR}/comPort.p1.d ${OBJECTDIR}/ubaud.p1.d ${OBJECTDIR}/ubusy.p1.d ${OBJECTDIR}/uclose.p1.d ${OBJECTDIR}/udefs.p1.d ${OBJECTDIR}/udrdy.p1.d ${OBJECTDIR}/ugets.p1.d ${OBJECTDIR}/uopen.p1.d ${OBJECTDIR}/uputrs.p1.d ${OBJECTDIR}/uputs.p1.d ${OBJECTDIR}/uread.p1.d ${OBJECTDIR}/uwrite.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/spi_clos.p1 ${OBJECTDIR}/spi_dtrd.p1 ${OBJECTDIR}/spi_gets.p1 ${OBJECTDIR}/spi_open.p1 ${OBJECTDIR}/spi_puts.p1 ${OBJECTDIR}/spi_read.p1 ${OBJECTDIR}/spi_writ.p1 ${OBJECTDIR}/openxlcd.p1 ${OBJECTDIR}/putrxlcd.p1 ${OBJECTDIR}/putsxlcd.p1 ${OBJECTDIR}/readaddr.p1 ${OBJECTDIR}/readdata.p1 ${OBJECTDIR}/setcgram.p1 ${OBJECTDIR}/setddram.p1 ${OBJECTDIR}/wcmdxlcd.p1 ${OBJECTDIR}/writdata.p1 ${OBJECTDIR}/busyxlcd.p1 ${OBJECTDIR}/LCD_user_functions.p1 ${OBJECTDIR}/display_functions.p1 ${OBJECTDIR}/lcd_menu.p1 ${OBJECTDIR}/psu_Rev01_menu.p1 ${OBJECTDIR}/psu_Rev01_spi.p1 ${OBJECTDIR}/pushButtons.p1 ${OBJECTDIR}/ADC_user_functions.p1 ${OBJECTDIR}/spiADC.p1 ${OBJECTDIR}/relDRiver.p1
+OBJECTFILES=${OBJECTDIR}/spi_clos.p1 ${OBJECTDIR}/spi_dtrd.p1 ${OBJECTDIR}/spi_gets.p1 ${OBJECTDIR}/spi_open.p1 ${OBJECTDIR}/spi_puts.p1 ${OBJECTDIR}/spi_read.p1 ${OBJECTDIR}/spi_writ.p1 ${OBJECTDIR}/openxlcd.p1 ${OBJECTDIR}/putrxlcd.p1 ${OBJECTDIR}/putsxlcd.p1 ${OBJECTDIR}/readaddr.p1 ${OBJECTDIR}/readdata.p1 ${OBJECTDIR}/setcgram.p1 ${OBJECTDIR}/setddram.p1 ${OBJECTDIR}/wcmdxlcd.p1 ${OBJECTDIR}/writdata.p1 ${OBJECTDIR}/busyxlcd.p1 ${OBJECTDIR}/LCD_user_functions.p1 ${OBJECTDIR}/display_functions.p1 ${OBJECTDIR}/lcd_menu.p1 ${OBJECTDIR}/psu_Rev01_menu.p1 ${OBJECTDIR}/psu_Rev01_spi.p1 ${OBJECTDIR}/pushButtons.p1 ${OBJECTDIR}/ADC_user_functions.p1 ${OBJECTDIR}/spiADC.p1 ${OBJECTDIR}/relDRiver.p1 ${OBJECTDIR}/comPort.p1 ${OBJECTDIR}/ubaud.p1 ${OBJECTDIR}/ubusy.p1 ${OBJECTDIR}/uclose.p1 ${OBJECTDIR}/udefs.p1 ${OBJECTDIR}/udrdy.p1 ${OBJECTDIR}/ugets.p1 ${OBJECTDIR}/uopen.p1 ${OBJECTDIR}/uputrs.p1 ${OBJECTDIR}/uputs.p1 ${OBJECTDIR}/uread.p1 ${OBJECTDIR}/uwrite.p1
 
 # Source Files
-SOURCEFILES=spi_clos.c spi_dtrd.c spi_gets.c spi_open.c spi_puts.c spi_read.c spi_writ.c openxlcd.c putrxlcd.c putsxlcd.c readaddr.c readdata.c setcgram.c setddram.c wcmdxlcd.c writdata.c busyxlcd.c LCD_user_functions.c display_functions.c lcd_menu.c psu_Rev01_menu.c psu_Rev01_spi.c pushButtons.c ADC_user_functions.c spiADC.c relDRiver.c
+SOURCEFILES=spi_clos.c spi_dtrd.c spi_gets.c spi_open.c spi_puts.c spi_read.c spi_writ.c openxlcd.c putrxlcd.c putsxlcd.c readaddr.c readdata.c setcgram.c setddram.c wcmdxlcd.c writdata.c busyxlcd.c LCD_user_functions.c display_functions.c lcd_menu.c psu_Rev01_menu.c psu_Rev01_spi.c pushButtons.c ADC_user_functions.c spiADC.c relDRiver.c comPort.c ubaud.c ubusy.c uclose.c udefs.c udrdy.c ugets.c uopen.c uputrs.c uputs.c uread.c uwrite.c
 
 
 CFLAGS=
@@ -301,6 +301,102 @@ ${OBJECTDIR}/relDRiver.p1: relDRiver.c  nbproject/Makefile-${CND_CONF}.mk
 	@-${MV} ${OBJECTDIR}/relDRiver.d ${OBJECTDIR}/relDRiver.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/relDRiver.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/comPort.p1: comPort.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/comPort.p1.d 
+	@${RM} ${OBJECTDIR}/comPort.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/comPort.p1 comPort.c 
+	@-${MV} ${OBJECTDIR}/comPort.d ${OBJECTDIR}/comPort.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/comPort.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ubaud.p1: ubaud.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ubaud.p1.d 
+	@${RM} ${OBJECTDIR}/ubaud.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ubaud.p1 ubaud.c 
+	@-${MV} ${OBJECTDIR}/ubaud.d ${OBJECTDIR}/ubaud.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ubaud.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ubusy.p1: ubusy.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ubusy.p1.d 
+	@${RM} ${OBJECTDIR}/ubusy.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ubusy.p1 ubusy.c 
+	@-${MV} ${OBJECTDIR}/ubusy.d ${OBJECTDIR}/ubusy.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ubusy.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uclose.p1: uclose.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uclose.p1.d 
+	@${RM} ${OBJECTDIR}/uclose.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uclose.p1 uclose.c 
+	@-${MV} ${OBJECTDIR}/uclose.d ${OBJECTDIR}/uclose.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uclose.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/udefs.p1: udefs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/udefs.p1.d 
+	@${RM} ${OBJECTDIR}/udefs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/udefs.p1 udefs.c 
+	@-${MV} ${OBJECTDIR}/udefs.d ${OBJECTDIR}/udefs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/udefs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/udrdy.p1: udrdy.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/udrdy.p1.d 
+	@${RM} ${OBJECTDIR}/udrdy.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/udrdy.p1 udrdy.c 
+	@-${MV} ${OBJECTDIR}/udrdy.d ${OBJECTDIR}/udrdy.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/udrdy.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ugets.p1: ugets.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ugets.p1.d 
+	@${RM} ${OBJECTDIR}/ugets.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ugets.p1 ugets.c 
+	@-${MV} ${OBJECTDIR}/ugets.d ${OBJECTDIR}/ugets.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ugets.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uopen.p1: uopen.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uopen.p1.d 
+	@${RM} ${OBJECTDIR}/uopen.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uopen.p1 uopen.c 
+	@-${MV} ${OBJECTDIR}/uopen.d ${OBJECTDIR}/uopen.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uopen.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uputrs.p1: uputrs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uputrs.p1.d 
+	@${RM} ${OBJECTDIR}/uputrs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uputrs.p1 uputrs.c 
+	@-${MV} ${OBJECTDIR}/uputrs.d ${OBJECTDIR}/uputrs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uputrs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uputs.p1: uputs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uputs.p1.d 
+	@${RM} ${OBJECTDIR}/uputs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uputs.p1 uputs.c 
+	@-${MV} ${OBJECTDIR}/uputs.d ${OBJECTDIR}/uputs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uputs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uread.p1: uread.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uread.p1.d 
+	@${RM} ${OBJECTDIR}/uread.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uread.p1 uread.c 
+	@-${MV} ${OBJECTDIR}/uread.d ${OBJECTDIR}/uread.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uread.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uwrite.p1: uwrite.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uwrite.p1.d 
+	@${RM} ${OBJECTDIR}/uwrite.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uwrite.p1 uwrite.c 
+	@-${MV} ${OBJECTDIR}/uwrite.d ${OBJECTDIR}/uwrite.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uwrite.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 else
 ${OBJECTDIR}/spi_clos.p1: spi_clos.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -509,6 +605,102 @@ ${OBJECTDIR}/relDRiver.p1: relDRiver.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/relDRiver.p1 relDRiver.c 
 	@-${MV} ${OBJECTDIR}/relDRiver.d ${OBJECTDIR}/relDRiver.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/relDRiver.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/comPort.p1: comPort.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/comPort.p1.d 
+	@${RM} ${OBJECTDIR}/comPort.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/comPort.p1 comPort.c 
+	@-${MV} ${OBJECTDIR}/comPort.d ${OBJECTDIR}/comPort.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/comPort.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ubaud.p1: ubaud.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ubaud.p1.d 
+	@${RM} ${OBJECTDIR}/ubaud.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ubaud.p1 ubaud.c 
+	@-${MV} ${OBJECTDIR}/ubaud.d ${OBJECTDIR}/ubaud.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ubaud.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ubusy.p1: ubusy.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ubusy.p1.d 
+	@${RM} ${OBJECTDIR}/ubusy.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ubusy.p1 ubusy.c 
+	@-${MV} ${OBJECTDIR}/ubusy.d ${OBJECTDIR}/ubusy.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ubusy.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uclose.p1: uclose.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uclose.p1.d 
+	@${RM} ${OBJECTDIR}/uclose.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uclose.p1 uclose.c 
+	@-${MV} ${OBJECTDIR}/uclose.d ${OBJECTDIR}/uclose.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uclose.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/udefs.p1: udefs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/udefs.p1.d 
+	@${RM} ${OBJECTDIR}/udefs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/udefs.p1 udefs.c 
+	@-${MV} ${OBJECTDIR}/udefs.d ${OBJECTDIR}/udefs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/udefs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/udrdy.p1: udrdy.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/udrdy.p1.d 
+	@${RM} ${OBJECTDIR}/udrdy.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/udrdy.p1 udrdy.c 
+	@-${MV} ${OBJECTDIR}/udrdy.d ${OBJECTDIR}/udrdy.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/udrdy.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/ugets.p1: ugets.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ugets.p1.d 
+	@${RM} ${OBJECTDIR}/ugets.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ugets.p1 ugets.c 
+	@-${MV} ${OBJECTDIR}/ugets.d ${OBJECTDIR}/ugets.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ugets.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uopen.p1: uopen.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uopen.p1.d 
+	@${RM} ${OBJECTDIR}/uopen.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uopen.p1 uopen.c 
+	@-${MV} ${OBJECTDIR}/uopen.d ${OBJECTDIR}/uopen.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uopen.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uputrs.p1: uputrs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uputrs.p1.d 
+	@${RM} ${OBJECTDIR}/uputrs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uputrs.p1 uputrs.c 
+	@-${MV} ${OBJECTDIR}/uputrs.d ${OBJECTDIR}/uputrs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uputrs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uputs.p1: uputs.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uputs.p1.d 
+	@${RM} ${OBJECTDIR}/uputs.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uputs.p1 uputs.c 
+	@-${MV} ${OBJECTDIR}/uputs.d ${OBJECTDIR}/uputs.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uputs.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uread.p1: uread.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uread.p1.d 
+	@${RM} ${OBJECTDIR}/uread.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uread.p1 uread.c 
+	@-${MV} ${OBJECTDIR}/uread.d ${OBJECTDIR}/uread.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uread.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/uwrite.p1: uwrite.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/uwrite.p1.d 
+	@${RM} ${OBJECTDIR}/uwrite.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -mc90lib $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/uwrite.p1 uwrite.c 
+	@-${MV} ${OBJECTDIR}/uwrite.d ${OBJECTDIR}/uwrite.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/uwrite.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 endif
 

@@ -10,6 +10,7 @@
 #include <adc.h>
 #include <delays.h>
 #include <spi.h>
+#include <usart.h>
 #include "xlcd.h"
 #include "spiADC.h"
 
@@ -23,6 +24,7 @@
 #include "pushButtons.h"
 #include "lcd_menu.h"
 #include "relDriver.h"
+#include "comPort.h"
 
 
 void init_GPIO_DIR (void){
@@ -42,8 +44,8 @@ void init_GPIO_DIR (void){
     SPI_CS_UOUT = 1;    // digital output cs dac v set 
     SPI_CS_ADC = 1;     // digital output cs spiADC
     SPI_CS_IOEXT = 1;
-    //TRISCbits.RC6 = 0;  // used temporary for debug
-    //TRISCbits.RC7 = 0;  // used temporary for debug
+    TRISCbits.RC6 = 1;  // used temporary for debug
+    TRISCbits.RC7 = 1;  // used temporary for debug
     
 }
 
@@ -189,16 +191,19 @@ void main(void) {
     send_dac_u_spi ();
     
     init_XLCD();
+    init_uartComPort(); // 8 bit, 1-stop bit, no parity, 9600kbits, no flow control
+    while(BusyUSART());
+    putrsUSART("Be aware!! Tsetsko was here !!\r\n");
+    __delay_ms(500);
+    CloseUSART();
 
-    // LCD default intro screen and display voltmeter and ampermeter
+    // LCD default intro screen and display volt meter and ampere meter
     putrsXLCD("  Power Supply  ");
     SetDDRamAddr (0x40);
     putrsXLCD("v1.0");
     Delay1Sec();
     Delay1Sec();
     clear_display();
-    //RxD = 0;
-    //TxD = 1;
 
     lastStateROTARY_CK = ROTARY_CK;
  // main cycle   
@@ -414,32 +419,13 @@ void main(void) {
        // 3) DISPLAY     
         show_on_screen (display_mode);
         
-       // 4) handle relDriver demo
-        /*
-        relDriver_delay++;
-        
-        if (relDriver_delay > 30) 
+       // 4) handle serial communication
+        while (1)
         {
-            relDriver_delay = 0;
-            relDriver_counter++;
-            if (relDriver_counter > 7) 
-            {
-                relDriver_counter = 0;
-                //relDriver_open_all();
-                relDriver_memBuffer = 0xFF;
-            }
-            if (relDriver_counter == 0)
-            {
-                relDriver_memSet(relDriver_counter+7, OPEN);
-            }
-            else
-            {
-                relDriver_memSet(relDriver_counter-1, OPEN);
-            }
-            relDriver_memSet(relDriver_counter, CLOSE);
+            //relDriver_memBuffer = 0xFF; // open all relays
+            relDriver_memSet(getRelay_number(), CLOSE);
             relDriver_relSet();
         }
-        */
     }
     return;
 }

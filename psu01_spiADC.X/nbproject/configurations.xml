@@ -17,6 +17,7 @@
       <itemPath>xlcd.h</itemPath>
       <itemPath>spiADC.h</itemPath>
       <itemPath>relDriver.h</itemPath>
+      <itemPath>comPort.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -33,6 +34,19 @@
         <itemPath>spi_puts.c</itemPath>
         <itemPath>spi_read.c</itemPath>
         <itemPath>spi_writ.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="USART_lib" projectFiles="true">
+        <itemPath>ubaud.c</itemPath>
+        <itemPath>ubusy.c</itemPath>
+        <itemPath>uclose.c</itemPath>
+        <itemPath>udefs.c</itemPath>
+        <itemPath>udrdy.c</itemPath>
+        <itemPath>ugets.c</itemPath>
+        <itemPath>uopen.c</itemPath>
+        <itemPath>uputrs.c</itemPath>
+        <itemPath>uputs.c</itemPath>
+        <itemPath>uread.c</itemPath>
+        <itemPath>uwrite.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="XLCD_lib" projectFiles="true">
         <itemPath>openxlcd.c</itemPath>
@@ -55,6 +69,7 @@
       <itemPath>ADC_user_functions.c</itemPath>
       <itemPath>spiADC.c</itemPath>
       <itemPath>relDRiver.c</itemPath>
+      <itemPath>comPort.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

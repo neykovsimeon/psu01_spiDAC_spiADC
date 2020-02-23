@@ -17,7 +17,7 @@
 
 // MCP23S08 used control registers addresses
 #define reDriver_contrByte_write   0b01000000        // A1, A0 not applicable, control byte for write operation
-#define reDriver_contrByte_read    0b01000001        // A1, A0 not applicable, control byte for write operation
+#define reDriver_contrByte_read    0b01000001        // A1, A0 not applicable, control byte for read operation
 #define IODIR_ADDRESS                 0x00
 #define IOCON_ADDRESS                 0x05
 #define GPIO_ADDRESS                  0x09
