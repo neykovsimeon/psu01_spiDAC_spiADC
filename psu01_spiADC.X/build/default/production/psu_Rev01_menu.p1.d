@@ -1,0 +1,21 @@
+build/default/production/psu_Rev01_menu.p1:  \
+psu_Rev01_menu.c  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/adc.h  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/pconfig.h  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/p18cxxx.h  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/delays.h  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/spi.h  \
+C:/Users/monka/Desktop/Projects/pic18/pic18_plib_legacy/include/plib/usart.h  \
+xlcd.h  \
+spiADC.h  \
+psu_Rev01_config_bits.h  \
+psu_Rev01_hardware.h  \
+psu_Rev01_definitions.h  \
+LCD_user_functions.h  \
+ADC_user_functions.h  \
+SPI_user_functions.h  \
+display_functions.h  \
+pushButtons.h  \
+lcd_menu.h  \
+relDriver.h  \
+comPort.h 
