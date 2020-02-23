@@ -1,1 +1,0 @@
- build/default/production/busyxlcd.d  build/default/production/busyxlcd.p1:  busyxlcd.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

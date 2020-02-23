@@ -4,13 +4,13 @@
 #include <stdbool.h>             // needed for boolean types, etc
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
 
 // !!!! plib handled via a local copy !!!!:
 // D:\Projects\pic18_plib\include\plib
 #include <adc.h>
 #include <delays.h>
 #include <spi.h>
+#include <usart.h>
 #include "xlcd.h"
 #include "spiADC.h"
 
@@ -23,11 +23,14 @@
 #include "display_functions.h"
 #include "pushButtons.h"
 #include "lcd_menu.h"
+#include "relDriver.h"
+#include "comPort.h"
 
 
 void init_GPIO_DIR (void){
     TRISAbits.RA7 = 0;  // digital output cs dac i set
     TRISAbits.RA3 = 0;  // digital output cs spiADC
+    TRISAbits.RA0 = 0;  // digital output cs io_expander
     TRISAbits.RA4 = 1;  // digital input button,  ROTARY_DA (rotary data)
     TRISBbits.RB4 = 0;  // digital output cs dac v set
     TRISBbits.RB5 = 1; //0;  // will be used in I protection function
@@ -40,8 +43,9 @@ void init_GPIO_DIR (void){
     SPI_CS_DISPLAY = 1; // digital output, cs digital pot for displ contrast and brightness
     SPI_CS_UOUT = 1;    // digital output cs dac v set 
     SPI_CS_ADC = 1;     // digital output cs spiADC
-    //TRISCbits.RC6 = 0;  // used temporary for debug
-    //TRISCbits.RC7 = 0;  // used temporary for debug
+    SPI_CS_IOEXT = 1;
+    TRISCbits.RC6 = 1;  // used temporary for debug
+    TRISCbits.RC7 = 1;  // used temporary for debug
     
 }
 
@@ -153,6 +157,12 @@ void interrupt rotary_encoder(void){
 
 void main(void) {
     
+    int relDriver_delay = 0;
+    unsigned char relDriver_mode = 0;
+    unsigned char relDriver_counter = 0;
+    outON = 0;
+    out4Wire = 0;
+   
     OSCCON  = 0x76;     // internal 8MHz oscillator, RA6 and RA7 are GPIO
     CMCON   = 0x07;     // Comparator OFF, RA2 and RA5 are digital inputs
     ADCON1  = 0x0F;
@@ -161,8 +171,10 @@ void main(void) {
 
     
     init_GPIO_DIR ();
-
-    // interrupts registers setup
+    
+    __delay_ms(50);
+    relDriver_initOutputs(); // initialization relDriver outputs and address mode
+   // interrupts registers setup
     // enable PORTB interrupt on change (encoder service)
     //RBIE = 1;
     //INTERRUPT CONTROL REGISTER 2:
@@ -179,17 +191,20 @@ void main(void) {
     send_dac_u_spi ();
     
     init_XLCD();
+    init_uartComPort(); // 8 bit, 1-stop bit, no parity, 9600kbits, no flow control
+    while(BusyUSART());
+    putrsUSART("Be aware!! Tsetsko was here !!\r\n");
+    __delay_ms(500);
+    CloseUSART();
 
-    // LCD default intro screen and display voltmeter and ampermeter
+    // LCD default intro screen and display volt meter and ampere meter
     putrsXLCD("  Power Supply  ");
     SetDDRamAddr (0x40);
     putrsXLCD("v1.0");
     Delay1Sec();
     Delay1Sec();
     clear_display();
-    //RxD = 0;
-    //TxD = 1;
-    
+
     lastStateROTARY_CK = ROTARY_CK;
  // main cycle   
     while (1) {
@@ -198,7 +213,8 @@ void main(void) {
         spiADC_function(adc_mode);
         adc_mode =  ~adc_mode; // toggle between U measure and I measure
        // 2.1) Buttons check -> display settings - contrast, brightness
-        pushButtons_display_settings();
+        //pushButtons_display_settings();
+        pushButtons_relDriver();
         // 2.2) Rotary encoder check -> output settings       
         if (button_enable == 1){
             if (ROTARY_SW == 0){
@@ -402,7 +418,14 @@ void main(void) {
         }
        // 3) DISPLAY     
         show_on_screen (display_mode);
-       // 4) Cycle delay
+        
+       // 4) handle serial communication
+        while (1)
+        {
+            //relDriver_memBuffer = 0xFF; // open all relays
+            relDriver_memSet(getRelay_number(), CLOSE);
+            relDriver_relSet();
+        }
     }
     return;
 }

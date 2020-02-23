@@ -1,5 +1,5 @@
 #include <p18cxxx.h>
-#include <plib/delays.h>
+#include <delays.h>
 #include "xlcd.h"
 
 /********************************************************************

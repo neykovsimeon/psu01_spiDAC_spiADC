@@ -1,1 +1,0 @@
- build/default/production/spi_puts.d  build/default/production/spi_puts.p1:  spi_puts.c ../../pic18_plib/include/plib/spi.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/pconfig.h ../../pic18_plib/include/plib/p18cxxx.h

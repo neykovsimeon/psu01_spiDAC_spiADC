@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8648ARUZ
+D Quad Rail-to-rail Input/Output Operational Amplifier, Wide signal bandwidth 24 MHz, Low offset voltage 0.6mV typ, 12 V/µs, 2.7V to 5.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8646_8647_8648.pdf
+$ENDCMP
+#
+$CMP AD8648ARUZ_MULTI
+D Quad Rail-to-rail Input/Output Operational Amplifier, Wide signal bandwidth 24 MHz, Low offset voltage 0.6mV typ, 12 V/µs, 2.7V to 5.5V
+K Quad Rail-to-rail Single Supply
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8646_8647_8648.pdf
+$ENDCMP
+#
+$CMP LM2576T-ADJ
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 12V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP MC33167TV
+D Inverting Switching Regulators - Step-Up/Down 5A
+K Inverting Switching Regulators
+F https://www.onsemi.com/pub/Collateral/MC34167-D.PDF
+$ENDCMP
+#
+$CMP MCP23S08-E_P
+D I/O Expander 8 bit, 10Mbits/s, SPI, 1.8-5.5V
+K I/O Expander, SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP PIC18F2525-I_SP
+D 8-bit Microcontrollers - flash 48KB, 3968 RAM, 25 I/O,  10-Bit A/D, UART,  3-Wire SPI (all 4 modes) and I2C™ master/slave
+K microcontroller PIC18F flash nanoWat
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39626e.pdf
+$ENDCMP
+#
+$CMP UDN2595A
+D 8-CHANNEL SATURATED SINK DRIVER
+K 8-CHANNEL SATURATED SINK DRIVER DARLINGTON
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/55052/ALLEGRO/UDN2595A.html
+$ENDCMP
+#
+#End Doc Library

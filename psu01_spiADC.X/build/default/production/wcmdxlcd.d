@@ -1,1 +1,0 @@
- build/default/production/wcmdxlcd.d  build/default/production/wcmdxlcd.p1:  wcmdxlcd.c ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h

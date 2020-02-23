@@ -1,1 +1,0 @@
- build/default/production/spi_writ.d  build/default/production/spi_writ.p1:  spi_writ.c ../../pic18_plib/include/plib/spi.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/pconfig.h ../../pic18_plib/include/plib/p18cxxx.h

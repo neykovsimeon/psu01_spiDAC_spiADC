@@ -1,1 +1,0 @@
- build/default/production/pushButtons.d  build/default/production/pushButtons.p1:  pushButtons.c SPI_user_functions.h psu_Rev01_definitions.h ../../pic18_plib/include/plib/htc.h ../../pic18_plib/include/plib/delays.h ../../pic18_plib/include/plib/p18cxxx.h xlcd.h psu_Rev01_hardware.h LCD_user_functions.h
